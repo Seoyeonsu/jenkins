@@ -12,6 +12,7 @@ sudo wget https://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.gz
 sudo tar xvf pcre-8.45.tar.gz
 sudo cd /web/apr-1.7.0
 sudo ./configure --prefix=/web/apr
+sudo make
 
 
 
