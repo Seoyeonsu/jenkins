@@ -11,6 +11,7 @@ sudo tar xvf apr-util-1.6.1.tar.gz
 sudo wget https://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.gz --no-check-certificate
 sudo tar xvf pcre-8.45.tar.gz
 sudo cd /web/apr-1.7.0
+sudo ./configure --prefix=/web/apr
 
 
 
